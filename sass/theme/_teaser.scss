@@ -1,0 +1,103 @@
+.teaser {
+	display: block;
+	height: 100vh;
+	border: 2rem solid white;
+	background-color: $color-1;
+	background-image: url(../img/big-bg-star-2.svg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	box-sizing: border-box;
+	.logo {
+		margin: 20px auto;
+		text-align: center;
+	}
+	.teaser-in {
+		@include vertical-center;
+		display: block;
+		text-align: center;
+		width: 1920px;
+		max-width: 85%;
+		h1 {
+			font-family: $font-titles;
+			font-size: 16.5rem;
+			text-transform: uppercase;
+			line-height: 1em;
+			margin: 5rem 0 -0.2em 0;
+			@media screen and (max-width: 1024px) {
+				font-size: 14rem;
+			}
+			@media screen and (max-width: 750px) {
+				font-size: 8rem;
+			}
+		}
+		h2 {
+			color: $white;
+			font-size: 2.8rem;
+			margin-bottom: 5.5rem;
+		}
+		a {
+			background-color: $black;
+			padding: 2rem 4.5rem;
+			border-radius: 6px;
+			font-weight: bold;
+			font-size: 2.6rem;
+			letter-spacing: 0.1rem;
+			color: $white;
+			transition: all 0.5s;
+			text-decoration: none;
+		}
+		a:hover {
+			background-color: white;
+			color: black;
+			padding: 2rem 7.5rem;
+		}
+		p {
+			margin-top: 5rem;
+			color: black;
+			font-size: 2.2rem;
+			font-weight: bold;
+		}
+	}
+	#mouse {
+		display: inline-block;
+		position: absolute;
+		bottom: 4rem;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 28px;
+		height: 40px;
+		background-color: rgba(255, 255, 255, 0.6);
+		border-radius: 15px;
+		transition: all 0.5s linear;
+	}
+	#wheel {
+		display: inline-block;
+		position: absolute;
+		top: 10px;
+		left: 11px;
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background-color: $color-1;
+		animation: moveWheel 1.5s linear infinite;
+	}
+	@keyframes moveWheel {
+		0% {
+			top: 10px;
+			opacity: 1;
+		}
+		35% {
+			top: 20px;
+			opacity: 1;
+		}
+		60% {
+			top: 20px;
+			opacity: 0;
+		}
+		100% {
+			top: 20px;
+			opacity: 0;
+		}
+	}
+}
