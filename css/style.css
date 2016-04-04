@@ -468,6 +468,7 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_body\.scss}line{font-family:\000031}}
 body {
   background-color: #ffffff;
+  font-size: 2rem;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_teaser\.scss}line{font-family:\000031}}
@@ -593,6 +594,15 @@ body {
     top: 20px;
     opacity: 0;
   }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/naracija1\.scss}line{font-family:\000031}}
+.naracija1 {
+  border: 2rem solid white;
+  border-top: none;
+  border-bottom: none;
+  display: block;
+  text-align: center;
+  background-color: #f0f0f0;
 }
 
 /*# sourceMappingURL=style.css.map */
