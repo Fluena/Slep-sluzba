@@ -595,14 +595,90 @@ body {
     opacity: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/naracija1\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\000031}}
 .naracija1 {
   border: 2rem solid white;
   border-top: none;
   border-bottom: none;
   display: block;
-  text-align: center;
   background-color: #f0f0f0;
+  padding: 8rem 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\000032}}
+.naracija1 {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\000035}}
+.naracija1:before, .naracija1:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\0000310}}
+.naracija1:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\000039}}
+.naracija1 h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\0000315}}
+.naracija1 p {
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\000033}}
+.naracija1 .naracija-in {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\000037}}
+.naracija1 .naracija-in .slika {
+  display: inline-block;
+  max-width: 30%;
+  float: left;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\0000313}}
+.naracija1 .naracija-in .slika img {
+  max-width: 100%;
+  float: left;
+}
+@media screen and (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\0000313}}
+  .naracija1 .naracija-in .slika img {
+    float: none;
+    margin: auto;
+    width: 300px;
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\000037}}
+  .naracija1 .naracija-in .slika {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\0000330}}
+.naracija1 .naracija-in .tekst {
+  display: inline-block;
+  max-width: 60%;
+  float: right;
+}
+@media screen and (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija1\.scss}line{font-family:\0000330}}
+  .naracija1 .naracija-in .tekst {
+    display: block;
+    float: none;
+    max-width: 100%;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.naracija1 {
+	@include slep-sekcija;
+	.naracija-in {
+		width: 1200px;
+		max-width: 100%;
+		margin: auto;
+		.slika {
+			display: inline-block;
+			max-width: 30%;
+			float: left;
+			text-align: center;
+			margin-bottom: 8rem;
+			img {
+				max-width: 100%;
+				float: left;
+				@media screen and (max-width: 950px) {
+					float: none;
+					margin: auto;
+					width: 300px;
+					max-width: 75%;
+				}
+			}
+			@media screen and (max-width: 950px) {
+				display: block;
+				width: 100%;
+				max-width: 100%;
+				float: none;
+			}
+		}
+		.tekst {
+			display: inline-block;
+			max-width: 60%;
+			float: right;
+			@media screen and (max-width: 950px) {
+				display: block;
+				float: none;
+				max-width: 100%;
+				margin: auto;
+			}
+		}
+	}
+}

@@ -1,8 +1,18 @@
 @mixin slep-sekcija {
+	@include clearfix;
 	border: 2rem solid white;
 	border-top: none;
 	border-bottom: none;
 	display: block;
-	text-align: center;
 	background-color: $color-2;
+	padding: 8rem 3rem;
+	h2 {
+		font-family: $font-titles;
+		font-size: 5rem;
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	p {
+		line-height: 1.5em;
+	}
 }
