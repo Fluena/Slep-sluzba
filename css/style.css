@@ -625,6 +625,13 @@ body {
   line-height: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\0000315}}
+.naracija1 h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\0000321}}
 .naracija1 p {
   line-height: 1.5em;
 }
@@ -678,6 +685,93 @@ body {
     float: none;
     max-width: 100%;
     margin: auto;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija2\.scss}line{font-family:\000031}}
+.naracija2, .naracija3 {
+  border: 2rem solid white;
+  border-top: none;
+  border-bottom: none;
+  display: block;
+  background-color: #f0f0f0;
+  padding: 8rem 3rem;
+  background-color: #e4e4e4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\000032}}
+.naracija2, .naracija3 {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\000035}}
+.naracija2:before, .naracija3:before, .naracija2:after, .naracija3:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_clearfix\.scss}line{font-family:\0000310}}
+.naracija2:after, .naracija3:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\000039}}
+.naracija2 h2, .naracija3 h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\0000315}}
+.naracija2 h3, .naracija3 h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/mixins\/_slep-sekcija\.scss}line{font-family:\0000321}}
+.naracija2 p, .naracija3 p {
+  line-height: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija2\.scss}line{font-family:\000034}}
+.naracija2 .naracija2-in, .naracija3 .naracija2-in {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_naracija3\.scss}line{font-family:\000031}}
+.naracija3 {
+  background-color: #f0f0f0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_box\.scss}line{font-family:\000031}}
+.box {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  vertical-align: text-top;
+  padding: 4rem;
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_box\.scss}line{font-family:\000038}}
+  .box .slika img {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 950px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_box\.scss}line{font-family:\000031}}
+  .box {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vlada\/Dropbox\/slep\%20sluzba\/sass\/theme\/_box\.scss}line{font-family:\000031}}
+  .box {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
   }
 }
 

@@ -1,0 +1,9 @@
+.naracija2 {
+	@include slep-sekcija;
+	background-color: $color-3;
+	.naracija2-in {
+		width: 1200px;
+		max-width: 100%;
+		margin: auto;
+	}
+}
