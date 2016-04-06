@@ -1,0 +1,27 @@
+.box {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	vertical-align: text-top;
+	padding: 4rem;
+	.slika {
+		img {
+			@media screen and (max-width: 700px) {
+				max-width: 50%;
+				margin: auto;
+			}
+		}
+	}
+	@media screen and (max-width: 950px) {
+		display: block;
+		width: 80%;
+		margin: auto;
+		padding: 2rem 0;
+	}
+	@media screen and (max-width: 700px) {
+		display: block;
+		width: 90%;
+		margin: auto;
+		padding: 2rem 0;
+	}
+}
